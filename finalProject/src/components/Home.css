@@ -1,0 +1,42 @@
+.ReadPosts {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.search-bar {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.search-bar input[type="text"] {
+    width: 350px; /* Adjust width as needed */
+    height: 15px; /* Adjust height as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+.search-bar button {
+height: 38px; /* Adjust height to match input box */
+line-height: 18px; /* Center the text vertically */
+}
+.sort-buttons {
+display: flex;
+align-items: center; /* Center items vertically */
+
+}
+
+.sort-buttons h2 {
+margin-right: 10px; /* Add some space between the heading and buttons */
+margin-left: 20px;
+}
+.sort-buttons button {
+margin-right: 10px; /* Add space between buttons */
+}
+.sort-buttons button.active {
+    background-color: #A49393;
+   
+
+}

@@ -1,0 +1,8 @@
+.form {
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top: 100px; /* Adjust top margin to center vertically */
+    padding: 20px;
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 8px; /* Rounded corners */
+  }
